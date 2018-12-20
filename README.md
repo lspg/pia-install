@@ -1,1 +1,1 @@
-# pia-install
+## howto/install-pia
