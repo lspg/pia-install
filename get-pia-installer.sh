@@ -3,10 +3,12 @@
 scrdir=/tmp/pia-installer/scripts
 
 mkdir -p ${scrdir}
-curl curl -sSL -o /tmp/pia-installer-debian.sh https://raw.githubusercontent.com/lspg/pia-installer-debian/master/pia-installer-debian.sh
-curl curl -sSL -o ${scrdir}/prepare.sh https://raw.githubusercontent.com/lspg/pia-installer-debian/master/scripts/prepare.sh
-curl curl -sSL -o ${scrdir}/user.sh https://raw.githubusercontent.com/lspg/pia-installer-debian/master/scripts/user.sh
-curl curl -sSL -o ${scrdir}/postgres.sh https://raw.githubusercontent.com/lspg/pia-installer-debian/master/scripts/postgres.sh
-curl curl -sSL -o ${scrdir}/ruby.sh https://raw.githubusercontent.com/lspg/pia-installer-debian/master/scripts/ruby.sh
-curl curl -sSL -o ${scrdir}/nodejs.sh https://raw.githubusercontent.com/lspg/pia-installer-debian/master/scripts/nodejs.sh
-curl curl -sSL -o ${scrdir}/pia-back.sh https://raw.githubusercontent.com/lspg/pia-installer-debian/master/scripts/pia-back.sh
+wget https://raw.githubusercontent.com/lspg/pia-installer-debian/master/get-pia-installer.sh -O /tmp/pia-installer-debian.sh
+curl -sSL -o /tmp/pia-installer-debian.sh https://raw.githubusercontent.com/lspg/pia-installer-debian/master/pia-installer-debian.sh
+
+wget https://raw.githubusercontent.com/lspg/pia-installer-debian/master/prepare.sh -O ${scrdir}/prepare.sh
+wget https://raw.githubusercontent.com/lspg/pia-installer-debian/master/user.sh -O ${scrdir}/user.sh
+wget https://raw.githubusercontent.com/lspg/pia-installer-debian/master/postgres.sh -O ${scrdir}/postgres.sh
+wget https://raw.githubusercontent.com/lspg/pia-installer-debian/master/ruby.sh -O ${scrdir}/ruby.sh
+wget https://raw.githubusercontent.com/lspg/pia-installer-debian/master/nodejs.sh -O ${scrdir}/nodejs.sh
+wget https://raw.githubusercontent.com/lspg/pia-installer-debian/master/pia-back.sh -O ${scrdir}/pia-back.sh
