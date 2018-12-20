@@ -7,4 +7,4 @@ This script installs [pia-back](https://raw.githubusercontent.com/LINCnil/pia-ba
 
 ## How to use
 
-wget -O - https://raw.githubusercontent.com/lspg/pia-installer-debian/master/get-pia-installer.sh | sh
+wget -O - https://raw.githubusercontent.com/lspg/pia-installer-debian/master/pia-installer.sh | bash
