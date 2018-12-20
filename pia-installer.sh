@@ -10,9 +10,9 @@ wget https://raw.githubusercontent.com/lspg/pia-installer-debian/master/scripts/
 wget https://raw.githubusercontent.com/lspg/pia-installer-debian/master/scripts/nodejs.sh -O ${scrdir}/scripts/nodejs.sh
 wget https://raw.githubusercontent.com/lspg/pia-installer-debian/master/scripts/pia-back.sh -O ${scrdir}/scripts/pia-back.sh
 
-. ${scrdir}/prepare.sh
-. ${scrdir}/user.sh
-. ${scrdir}/postgres.sh
-. ${scrdir}/ruby.sh
-. ${scrdir}/nodejs.sh
-. ${scrdir}/pia-back.sh
+. ${scrdir}/scripts/prepare.sh
+. ${scrdir}/scripts/user.sh
+. ${scrdir}/scripts/postgres.sh
+. ${scrdir}/scripts/ruby.sh
+. ${scrdir}/scripts/nodejs.sh
+. ${scrdir}/scripts/pia-back.sh
