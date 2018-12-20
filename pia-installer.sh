@@ -3,6 +3,7 @@
 scrdir=/tmp/pia-installer
 mkdir -p ${scrdir}
 
+wget https://raw.githubusercontent.com/lspg/pia-installer-debian/master/config.sh -O ${scrdir}/config.sh
 wget https://raw.githubusercontent.com/lspg/pia-installer-debian/master/scripts/prepare.sh -O ${scrdir}/scripts/prepare.sh
 wget https://raw.githubusercontent.com/lspg/pia-installer-debian/master/scripts/user.sh -O ${scrdir}/scripts/user.sh
 wget https://raw.githubusercontent.com/lspg/pia-installer-debian/master/scripts/postgres.sh -O ${scrdir}/scripts/postgres.sh
