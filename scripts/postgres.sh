@@ -4,7 +4,7 @@ db_user_name=""
 db_user_pwd=""
 create_db_user=false
 
-. ../config.sh
+. ./config.sh
 
 # Install packages
 apt update

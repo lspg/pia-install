@@ -5,7 +5,7 @@ shell_user_pwd=""
 create_shell_user=false
 pwd_salt=""
 
-. ../config.sh
+. ./config.sh
 
 apt update
 apt -y install haveged

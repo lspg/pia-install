@@ -4,7 +4,7 @@ shell_user_name=""
 db_user_name=""
 db_user_pwd=""
 
-. ../config.sh
+. ./config.sh
 
 if [[ ! ${#shell_user_name} -eq 0 && $(getent passwd $shell_user_name) && ${#db_user_name} -gt 0 && ${#db_user_pwd} -gt 0 ]]; then
 
